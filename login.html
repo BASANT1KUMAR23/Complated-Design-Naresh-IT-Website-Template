@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh Technologies</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <style>
+        body {
+            background-image: url(Images/j.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        form {
+            background-color: hsla(0, 0%, 100%,0.6);
+            opacity: 0.9;
+        }
+        .bi-person:hover{
+              text-shadow: 1px 2px 12px 10px white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <br><br>
+            <center>
+                <h2><strong>Naresh Institute and Technologies</strong></h2>
+            </center>
+        </div>
+    </div>
+    <br><br>
+    <nav class="nav bg-dark p-2 m-2">
+        <li class="nav-item"><a class="nav-link bi bi-house-door-fill" href=""> Home</a></li>
+        <li class="nav-item"><a class="nav-link bi bi-question-circle-fill" href=""> About</a></li>
+        <li class="nav-item"><a class="nav-link bi bi-question-circle-fill" href=""> Service</a></li>
+        <li class="nav-item"><a class="nav-link bi bi-phone-fill" href=""> Contact Us</a></li>
+        <div class="dropdown">
+            <a class="btn border-0 dropdown-toggle" data-bs-toggle="dropdown">
+                <span class="bi bi-box-arrow-in-right"></span> &nbsp;Sign In</a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"><span class="dropdown-item-text bi bi-box-arrow-in-right">&nbsp;
+                        Sign In</span></li>
+                <li class="dropdown-item"><span class="dropdown-item-text bi bi-person-add"> &nbsp;Sign
+                        Up</span></li>
+                <li class="dropdown-item"><span class="dropdown-item-text bi bi-unlock">&nbsp;Change
+                        Password</span></li>
+            </ul>
+        </div>
+
+    </nav>
+    <br><br><br>
+
+    <div class="row">
+        <div class="col-xl-12 col-sm-4 form-group" id="reglogin">
+            <div class="log ">
+                <form method="POST" action="#" class=""
+                    style="box-shadow: 1px 5px 8px 10px #333; width: 480px; margin:auto;">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 form-group">
+                            <center>
+                                <h3 style="margin-bottom: 5px; color:#333333; text-shadow: 2px 2px 4px #333;">
+                                    <label class="pt-4 pb-5 fw-bold">Please Login Your Account</label>
+                                </h3>
+                            </center>
+
+                        </div>
+
+                    </div>
+                    <div class="row ms-2 me-2">
+                        <div class="col-xs-12 col-sm-12 form-group">
+                            <label class="ms-1 pb-2 fw-bold">Email id:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon p-1"
+                                    style="color: #fff;background-color: #800000; border:3px solid #800000;"><i
+                                        class="bi bi-person"></i></span>
+                                <input type="text" class="form-control" id="username" placeholder="Email Id"
+                                    name="username" required>
+                                <span class="input-group-addon p-1"
+                                    style="color: #fff;background-color: #800000; border:3px solid #800000;"><i
+                                        class="bi bi-star"></i></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row ms-2 me-2 mt-4">
+                        <div class="col-xs-12 col-sm-12 form-group">
+                            <label class="fw-bold pb-2">Passowrd:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon p-1"
+                                    style="color: #fff;background-color: #800000; border:3px solid #800000;"><i
+                                        class="bi bi-unlock"></i></span>
+                                <input type="text" class="form-control" id="username" placeholder="Password"
+                                    name="username" required>
+                                <span class="input-group-addon p-1"
+                                    style="color: #fff;background-color: #800000; border:3px solid #800000;"><i
+                                        class="bi bi-star"></i></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=""><button type="button" name="submit" class="btn btn-warning ms-5"><i
+                                        class="bi bi-person-add"></i> Sign Up</button></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <button type="submit" class="btn btn-success ms-5"><span
+                                    class="bi bi-box-arrow-in-right"></span>
+                                &nbsp; Sign In</button>
+                        </div>
+
+                    </div>
+                    <br><br>
+
+                </form>
+
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-3" style="margin-left: 900px; margin-top: -430px;">
+            <br><br><br><br><br>
+            <center>
+                <img src="Images/log.gif" alt="" width="180" height="180">
+            </center>
+
+        </div>
+
+    </div>
+
+
+
+    <br><br><br>
+    <div class="footer pt-5 pb-5">
+        <div class="text-center text-white pb-5">
+            <h6 class="fw-bold naresh">Naresh Technologies</h6>
+        </div>
+        <div class="footer-item d-flex text-white justify-content-around">
+            <div class="items-1 text-white">
+                <li>
+                    <span class="bi bi-facebook"></span>
+                    <a href="https://www.facebook.com/nareshit/" target="_blank"
+                        class="text-white text-decoration-none">Facebook</a>
+                </li>
+                <li>
+                    <span class="bi bi-envelope-fill"></span>
+                    <a href="https://nareshit.in/course-schedule/" target="_blank"
+                        class="text-white text-decoration-none">Google</a>
+                </li>
+                <li>
+                    <span class="bi bi-twitter"></span>
+                    <a href="https://twitter.com/nareshitech?lang=en" target="_blank"
+                        class="text-white text-decoration-none">Twitter</a>
+                </li>
+                <li>
+                    <span class="bi bi-youtube"></span>
+                    <a href="https://www.youtube.com/user/nareshtechnologies" target="_blank"
+                        class="text-white text-decoration-none">Youtube</a>
+                </li>
+            </div>
+            <div class="items-2">
+                <li>
+                    <a href="" class="text-white text-decoration-none">Home</a>
+                </li>
+                <li>
+                    <a href="" class="text-white text-decoration-none">About</a>
+                </li>
+                <li>
+                    <a href="" class="text-white text-decoration-none">Service</a>
+                </li>
+                <li>
+                    <a href="" class="text-white text-decoration-none">Contact</a>
+                </li>
+            </div>
+            <div class="items-3">
+                <li><strong>Name:</strong><span> Naresh Technologies</span> <br></li>
+                <li><strong>Email ID:</strong><span> info@nareshit.com</span> <br></li>
+                <li><strong>Contact Number:</strong><span> +91-xxxxxxxxxx</span> <br></li>
+                <li><strong>Address:</strong><span> Hyderabad, India</span></li>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+
+</html>
